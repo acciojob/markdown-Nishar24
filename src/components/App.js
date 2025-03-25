@@ -10,7 +10,6 @@ function Markdown() {
   const handleChange = (e) => {
     setMarkdown(e.target.value);
   };
-
   const changeLoadingVar = () => {
     setLoading(false);
   };
